@@ -44,5 +44,6 @@ class CryptoCurrencyScraper:
             "Trade Volume (24hr)": self.volumeInCurrencyTwentyFourHour,
             "Circulating supply": self.circulatingSupply
         })
+        # TODO formating data some are too long
         print(cc_dataframe)
         return
