@@ -9,6 +9,7 @@ class CurrencyScraper:
     prices = []
     changes = []
     percentChanges = []
+    
     currencyURL = ""
 
     def __init__(self):
